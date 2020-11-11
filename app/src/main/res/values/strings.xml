@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">RentKu</string>
+    <string name="date_picker">datePicker</string>
+    <string name="date">Date</string>
+
+
+    <string name="tab_label1">Akun</string>
+    <string name="tab_label2">Profile</string>
+
+    <string name="rental_merk">Merk</string>
+    <string name="rental_nopol">No Polisi</string>
+    <string name="rental_harga">Harga</string>
+    <string name="rental_pemilik">Pemilik</string>
+    <string name="button_pilih">Pilih</string>
+    <string name="logout">Logout</string>
+    <string-array name="labels_array">
+        <item>Pilih Kota</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Malang</item>
+    </string-array>
+    <string-array name="metode">
+        <item>Pilih Metode Antar</item>
+        <item>Ambil di Pool RentalKu</item>
+        <item>Antar ke Lokasi Saya</item>
+
+    </string-array>
+
+    <string name="google_maps_API_key">AIzaSyA3dXrvFpqOMlR3tNIRPOLD6o1Lznc38ug</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

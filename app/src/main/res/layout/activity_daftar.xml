@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/back_login"
+    android:orientation="vertical"
+    tools:context=".Daftar">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_person" />
+
+            <EditText
+                android:id="@+id/username_field"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_person" />
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_pass" />
+
+            <EditText
+                android:id="@+id/password_field"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/repassword_field"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+            android:textColor="#494847"
+            android:textColorHint="#5F5D5C" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_email_" />
+
+            <EditText
+                android:id="@+id/email_field"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_phone" />
+
+            <EditText
+                android:id="@+id/hp_field"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="No. Hp"
+                android:inputType="number"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C" />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnRegist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:onClick="register"
+            android:text="Daftar"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Sudah Punya Akun?"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Login disini?"
+                android:textColor="#494847"
+                android:textColorHint="#5F5D5C"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

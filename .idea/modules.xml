@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\p\rpl\RentalKu\RentKu.iml" filepath="E:\p\rpl\RentalKu\RentKu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RentalKu.iml" filepath="$PROJECT_DIR$/RentalKu.iml" />
+      <module fileurl="file://D:\android\RentalKu.iml" filepath="D:\android\RentalKu.iml" />
+      <module fileurl="file://C:\Users\zulfikaranshari\AndroidStudioProjects\RentKu\RentalKu.iml" filepath="C:\Users\zulfikaranshari\AndroidStudioProjects\RentKu\RentalKu.iml" />
+      <module fileurl="file://D:\RentKu\android.iml" filepath="D:\RentKu\android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\RentKu\app\app.iml" filepath="D:\RentKu\app\app.iml" />
+      <module fileurl="file://D:\android\app\app.iml" filepath="D:\android\app\app.iml" />
+    </modules>
+  </component>
+</project>

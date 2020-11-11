@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:padding="5dp"
+    android:background="?android:selectableItemBackground">
+
+    <LinearLayout
+        android:background="#DFFFFFFF"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/gambarKendaraan"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/merkKendaraan"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/xtrail" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/pemilikKendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_pemilik" />
+    </LinearLayout>
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/merkKendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_merk"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nopolKendaraan"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nopolKendaraan"
+        android:layout_marginTop="24dp"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_merk" />
+
+    <TextView
+        android:id="@+id/nopolKendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/merkKendaraan"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_nopol" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nopolKendaraan"
+        android:layout_alignBottom="@+id/nopolKendaraan"
+        android:layout_marginLeft="0dp"
+
+        android:layout_toEndOf="@+id/nopolKendaraan"
+        android:layout_toRightOf="@+id/nopolKendaraan"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_nopol"
+        android:id="@+id/no_kendaraan" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/hargaKendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nopolKendaraan"
+        android:layout_alignStart="@+id/nopolKendaraan"
+        android:layout_below="@+id/nopolKendaraan"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_harga" />
+
+    <TextView
+        android:id="@+id/harga_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hargaKendaraan"
+        android:layout_alignBottom="@+id/hargaKendaraan"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:padding="@dimen/card_margin"
+        android:text="@string/rental_harga"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/backbutton"
+        android:id="@+id/btn_pilih"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_pilih" />
+</RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

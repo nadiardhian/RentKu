@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zulfikaranshari.rentku.UserRating">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/iv_kendaraan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/xtrail" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingLeft="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Kendaraan"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_merk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Merk :" />
+
+                <TextView
+                    android:id="@+id/tv_nopol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Polisi :" />
+
+
+                <TextView
+                    android:id="@+id/tv_tanggalrental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Rental :" />
+
+                <TextView
+                    android:id="@+id/tv_tanggalbalik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Pengembalian :" />
+
+                <TextView
+                    android:id="@+id/tv_pemilik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pemilik Kendaraan :" />
+
+                <TextView
+                    android:id="@+id/tv_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Harga :" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:gravity="center_horizontal"
+            android:text="Please rate our services"/>
+
+    </LinearLayout>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

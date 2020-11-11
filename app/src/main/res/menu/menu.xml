@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/home"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Home"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/profile"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Pofile"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/riwayat"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Riwayat"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/pembayaran"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Tentang Kami"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/faq"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="FAQ"-->
+        <!--app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/signout"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "52648647785",
+    "firebase_url": "https://rentku-d1b61.firebaseio.com",
+    "project_id": "rentku-d1b61",
+    "storage_bucket": "rentku-d1b61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52648647785:android:78f2056237015874",
+        "android_client_info": {
+          "package_name": "com.example.zulfikaranshari.rentku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52648647785-c27uvh0qtttne03bdi192htk7s4jenan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zulfikaranshari.rentku",
+            "certificate_hash": "fe57c33461881207c64c29effb41f117413cf15e"
+          }
+        },
+        {
+          "client_id": "52648647785-n135hvj1fhso30porool63bg0j6g8fb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy2QMTLolvRLmer_h9LXQjhhslgmykTZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52648647785-n135hvj1fhso30porool63bg0j6g8fb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
